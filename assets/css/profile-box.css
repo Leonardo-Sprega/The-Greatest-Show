@@ -1,0 +1,105 @@
+
+
+
+.profile-box.sticky{
+    margin-top: 117px;
+}
+.profile-box{
+
+    border: 1px solid azure;
+    border-radius: 5px; 
+
+    min-height: 514px;
+    width: 600px;
+
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 30px 30px 30px 30px;
+    background-color: #00002b;
+}
+
+.nome{
+    display: flex;
+}
+.testo-profile{
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none; 
+ 
+    color: azure; 
+    align-items: center;
+}
+.form-label{
+
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none; 
+
+    margin-left: 10px;
+ 
+    color: azure; 
+    align-items: center;
+
+
+}
+.special{
+    color: rgb(255, 255, 0);
+}
+.pren{
+    margin-top: 70px;
+}
+.biglietti-prenotati{
+    font-size: 15px;
+    font-weight: 400;
+}
+.scritta-citta{
+    color: rgb(255, 255, 0);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.scritte-saldo-sconto{
+    display: flex;
+    border: 1px solid azure;
+    padding:5px 0px;
+}
+.scritta-sconto{
+    font-size: 10px;
+    margin: auto;
+    margin-left: 5px;
+}
+.scritta-saldo{
+    margin: auto;
+    left: 0;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    .profile-box.sticky{
+        margin-top: 140px;
+    }
+}
+@media only screen and (max-width: 720px){
+    .profile-box{
+        margin-top: 138px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    .profile-box{
+        width: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+
+
+}
+
+
+

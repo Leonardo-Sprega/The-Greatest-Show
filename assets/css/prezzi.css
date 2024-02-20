@@ -1,0 +1,98 @@
+
+
+.titoloPrezzi.sticky{
+    margin-top:117px;
+}
+.titoloPrezzi{
+    color: azure;
+    text-align: center;
+    margin-top: 50px;
+
+
+    letter-spacing:1px;
+    font-size: 40px;
+    font-weight: 600;
+
+
+}
+.sottotitolo{
+    color: azure;
+    text-align: center;
+
+
+    letter-spacing:1px;
+    font-size: 15px;
+
+    margin-bottom: 50px;
+
+
+}
+
+
+
+.partePrezzi{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 85%;
+}
+.fotoPrezzi{
+    background-image: url(../immagini/posti-circo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.prezzi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    /*background-color: #00002b;*/
+    border-top: 5px solid azure;
+    border-bottom: 5px solid azure;
+
+    background-color: rgb(255, 235, 0);
+
+}
+.anello{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+
+    margin: auto;
+
+    letter-spacing:1px;
+    word-spacing: 10px; 
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+/*Pagina Responsive*/
+
+@media only screen and (max-width: 1100px){
+    .titoloPrezzi.sticky{
+        margin-top: 140px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 1039px){
+    .anello{
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 720px){
+    .titoloPrezzi.sticky{
+        margin-top: 120px; 
+    }
+    .titoloPrezzi{
+        margin-top: 120px;   
+    }
+    .partePrezzi{
+        height: 800px;
+    }
+}

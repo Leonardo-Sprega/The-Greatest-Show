@@ -1,0 +1,154 @@
+
+.home-carosello-finale{
+    background-color: #000041;
+    height: 720px;
+    margin-top: 15px;
+}
+.carosello-finale-container{
+    
+    width: 100%;
+    height: 500px;
+    left: 0;
+}
+.carosello-finale-content{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.card-1{
+    background-image: url(../immagini/acrobati/trapezista-2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url(../immagini/animali/animale-7.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.card-3{
+    background-image: url(../immagini/mangiafuoco/mangiafuoco-1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.card-4{
+    background-image: url(../immagini/acrobati/trapezista-4.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.card-5{
+    background-image: url(../immagini/mangiafuoco/mangiafuoco-3.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.card-6{
+    background-image: url(../immagini/animali/animale-4.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.card-7{
+    background-image: url(../immagini/mangiafuoco/mangiafuoco-5.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+
+.titolo-carosello-finale{
+    
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    text-align: center;
+    
+    margin: auto;
+
+    color: azure;
+
+}
+.home-carosello-bottoni{
+    padding: 20px 20px;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    display: flex;
+}
+.bottone{
+
+    font-size: 25px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+    margin-bottom: 10px;
+
+    border-radius: 2px;
+    border: 0.5px solid azure;
+
+    transition: 0.5s ease;
+
+}
+
+
+
+/*servono per il carosello delle citta , senno non vengono colorati*/
+.swiper-navbtn{
+    transition: color 0.3s ease;
+    color: azure;
+}
+.swiper-navbtn:hover{
+    color: rgb(255, 255, 0);;
+}
+.swiper-pagination-bullet{
+    background-color:rgb(150, 195, 195);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: azure;
+}
+
+
+
+@media only screen and (max-width: 720px){
+    .home-carosello-finale{
+        margin-top: 25px;
+        margin-bottom: 120px;
+    }
+    .home-carosello-bottoni{
+        display: block;
+        text-align: center;
+        width: 350px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
+}
+@media only screen and (max-width: 720px){
+    .home-carosello-finale{
+        margin-top: 25px;
+        margin-bottom: 120px;
+    }
+
+}
+@media only screen and (max-width: 630px){
+    .home-carosello-finale{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .carosello-finale-content{
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        height: 400px;
+        width: 100%;
+    }
+}

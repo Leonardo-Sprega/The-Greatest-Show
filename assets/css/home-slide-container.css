@@ -1,0 +1,257 @@
+
+.slide-container{
+    width: 75%;
+    margin-bottom: 10px;
+}
+.titolo-container{
+
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    text-align: center;
+
+    width: 340px;  
+
+    text-decoration: none;
+    
+    margin: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 10px 15px; 
+
+    border-radius: 2px;
+    color: azure;
+
+    border: 1px solid azure;
+
+}
+.slide-content{
+    padding: 35px 25px;
+    margin: auto;
+    overflow: hidden;
+
+    height: 550px;
+    width: 85%;
+}
+
+
+
+
+.card-roma {
+    border-radius: 5px;
+    padding-top: 335px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(../immagini/roma.jpg);
+    background-size:cover;
+    background-position: center;
+    border: 2px solid #000;
+}
+.card-napoli {
+    border-radius: 5px;
+    padding-top: 335px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(../immagini/napoli.jpg);
+    background-size:cover;
+    background-position: center;
+    border: 2px solid #000;
+}
+.card-milano {
+    border-radius: 5px;
+    padding-top: 335px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(../immagini/milano.jpg);
+    background-size:cover;
+    background-position: center;
+    border: 2px solid #000;
+}
+.card-firenze {
+    border-radius: 5px;
+    padding-top: 335px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(../immagini/firenze.jpg);
+    background-size:cover;
+    background-position: center;
+    border: 2px solid #000;
+}
+.card-venezia {
+    border-radius: 5px;
+    padding-top: 335px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(../immagini/venezia.jpg);
+    background-size:cover;
+    background-position: center;
+    border: 2px solid #000;
+}
+.card-torino {
+    border-radius: 5px;
+    padding-top: 335px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url(../immagini/torino.jpg);
+    background-size:cover;
+    background-position: center;
+    border: 2px solid #000;
+}
+.name{
+    text-shadow: 2px 2px 4px black,
+                -2px -2px 4px #000000,
+                -2px 2px 4px #000000,
+                2px -2px 4px #000000;
+    font-size: 30px;
+    font-weight: 700;
+    color:#ffffff;
+
+}
+.description{
+    text-shadow: 2px 2px 4px black,
+                -2px -2px 4px #000000,
+                -2px 2px 4px #000000,
+                2px -2px 4px #000000;
+    font-size: 15px;
+    color:#ffffff;
+}
+.swiper-slide ul{
+    margin-top: 15px;
+}
+.button{
+    border: none;
+    text-decoration: none;
+
+    font-size: 15px;
+    padding: 8px 16px;
+
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    color: white;
+    background-color: #000041;
+    border: 1px solid azure;
+
+    transition: all 0.5s ease;
+}
+.button:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    color: #000;
+    transition: all 0.5s ease;
+}
+.swiper-navbtn{
+    transition: color 0.3s ease;
+    color: azure;
+}
+.swiper-navbtn:hover{
+    width: 20px;
+}
+.swiper-pagination-bullet{
+    background-color:rgb(0, 0, 0);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color:aqua;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px){
+    .slide-container{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .slide-content{
+        height: 450px;
+    }
+    .card-napoli {  
+        padding-top: 235px;        
+    }
+    .card-milano {
+        padding-top: 235px;
+    }
+    .card-firenze {  
+        padding-top: 235px;  
+    }
+    .card-venezia { 
+        padding-top: 235px;  
+    }
+    .card-roma {
+        padding-top: 235px;
+    }
+    .card-torino {
+        padding-top: 235px;
+    }
+}
+@media only screen and (max-width: 720px){
+    .slide-container{
+        width: 95%;
+    }
+    .card-napoli {  
+        padding-left: 0;  
+        padding-right: 0;   
+        text-align: center;       
+    }
+    .card-milano {
+        padding-left: 0;
+        padding-right: 0; 
+        text-align: center;
+    }
+    .card-firenze {  
+        padding-left: 0;
+        padding-right: 0;   
+        text-align: center;
+    }
+    .card-venezia { 
+        padding-left: 0;
+        padding-right: 0;   
+        text-align: center;
+    }
+    .card-roma {
+        padding-left: 0;
+        padding-right: 0; 
+        text-align: center;
+    }
+    .card-torino {
+        padding-left: 0;
+        padding-right: 0; 
+        background-position: left;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 630px){
+    .slide-content{
+        height: 350px;
+    }
+    .card-napoli {  
+        padding-top: 135px;        
+    }
+    .card-milano {
+        padding-top: 135px;
+    }
+    .card-firenze {  
+        padding-top: 135px;  
+    }
+    .card-venezia { 
+        padding-top: 135px;  
+    }
+    .card-roma {
+        padding-top: 135px;
+    }
+    .card-torino {
+        padding-top: 135px;
+    }
+}
+
+
+
+

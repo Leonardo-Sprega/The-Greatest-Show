@@ -1,0 +1,48 @@
+
+.home-paragrafo-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    height: 400px;
+
+    
+}
+
+.testo-paragrafo-2{
+
+    color: azure;
+    margin: auto;
+    letter-spacing:1px; 
+    font-size: 15px;
+    padding: 0px 30px;
+}
+
+.img-paragrafo-2{
+    background-image: url(../immagini/soleil-2.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+
+
+@media only screen and (max-width: 970px){
+    .home-paragrafo-2{
+
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+
+    .testo-paragrafo-2{
+        text-align: center;
+    
+    }
+    .img-paragrafo-2{
+        margin-top: 40px;
+    }
+}

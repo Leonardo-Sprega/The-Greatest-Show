@@ -1,0 +1,335 @@
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*Parte fondatore*/
+.titoloParteFondatore.sticky{
+    margin-top:97px;
+}
+
+.titoloParteFondatore{
+    margin-top: 30px;
+    color:azure;
+    text-align: center;
+    letter-spacing:1px;
+    font-size: 40px;
+    font-weight: 550;
+    
+}
+
+.parteFondatore{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin-bottom: 50px;
+ 
+}
+.contenitore-testo{
+
+    margin: 0px 70px;
+    margin: auto;
+    
+
+ 
+
+}
+.fondatoreStoria{
+    margin: 0px 60px;
+    color: azure;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+
+ 
+    
+}
+
+.fondatoreFoto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  15fr 1fr;
+
+    margin: 10px 10px 10px 10px;
+
+    
+    
+}
+
+.fondatore{
+    background-image: url(../immagini/PhineasTaylorBarnum.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+
+.Phineas{
+    color: azure;
+    text-align: center;
+    margin: auto;
+    letter-spacing:1px;
+
+    font-size: 20px;
+ 
+    
+}
+
+
+/*Fine parte fondatore*/
+
+/*---------------------------------------------------------------------------------------*/
+
+/*Parte conosci*/
+
+.titoloConosci{
+    margin: auto;
+    color: azure;
+    text-align: center;
+
+
+    letter-spacing:1px;
+    font-size: 40px;
+    font-weight: 550;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 445px;
+    
+
+    
+    
+}
+
+.parteConosci1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    
+    
+}
+
+.parteConosci2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 500px;
+    margin-bottom: 30px;
+
+    
+    
+}
+
+.parteConosci3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 500px;
+    margin-bottom: 80px;
+
+    
+    
+}
+
+.t1{
+   margin: auto;
+}
+
+.testo{
+    text-align: center;
+    font-size: 15px;
+    color: azure;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    
+}
+
+.immagine1{
+    background-image: url(../immagini/soleil-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.immagine2{
+    background-image: url(../immagini/soleil-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.immagine3{
+    background-image: url(../immagini/soleil-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.sx{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dx{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*Fine parte conosci*/
+
+/*--------------------------------------------------------------------------------------*/
+
+/*Parte Responsive*/
+
+@media only screen and (max-width: 1322px){
+    .fondatoreFoto{
+        grid-template-rows:  90% 10%;
+    }
+    .fondatoreStoria{
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width: 1285px){
+    .contenitore-testo{
+        grid-template-columns: 5% 90% 5%;
+    }
+    .fondatoreStoria{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 1150px){
+    .fondatoreStoria{
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .fondatoreFoto{
+        grid-template-rows:  95% 5%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .titoloParteFondatore.sticky{
+        margin-top: 120px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 988px){
+   
+
+    .fondatoreFoto{
+        grid-template-rows: 10fr 1fr;
+    }
+
+    .parteConosci1{
+        height: 700px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr 1fr;
+        
+        
+    }
+
+    .parteConosci2{
+        height: 700px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr 1fr;
+        
+        
+        
+        
+    }
+
+    .parteConosci3{
+        height: 700px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr 1fr;
+        
+        
+        
+    }
+
+    .t1{
+        margin-right: 0%;
+        margin: top 10px;
+    }
+
+
+    .testo{
+        padding-top: 20px;
+    }
+
+    .immagine1{
+        
+        background-position: center;
+        background-size: cover;
+
+        
+    }
+    
+    .immagine2{
+        
+        background-position: center;
+        background-size: cover;
+        grid-row: 1;
+        grid-column: 1;
+
+        
+    }
+    
+    .immagine3{
+        
+        background-position: center;
+        background-size: cover;
+
+        
+    }
+
+}
+@media only screen and (max-width: 888px){
+   
+    .parteFondatore{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+}
+
+
+
+@media only screen and(max-width: 758px){
+
+    .fondatoreFoto{
+        margin: auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 720px){
+    .titoloParteFondatore{
+        margin-top: 120px;
+        
+    }
+}
+
+@media only screen and (max-width: 688px){
+
+    .fondatoreFoto{
+        grid-template-rows: 90% 10%;
+    }
+
+}
+
+
+
+

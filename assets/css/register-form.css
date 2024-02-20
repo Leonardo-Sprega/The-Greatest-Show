@@ -1,0 +1,164 @@
+
+.register-form.sticky{
+    margin-top: 117px;
+}
+
+
+.register-form{
+    border: 1px solid azure;
+    border-radius: 5px; 
+
+    height: 850px;
+    width: 600px;
+
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 30px 30px 0px 30px;
+
+    background-color: #00002b;
+}
+.mb-3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form-label{
+
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none; 
+ 
+    color: azure; 
+    border-radius: 20px; 
+    align-items: center;
+
+}
+.form-control{
+    border: 2px solid #000;
+}
+.bottone{
+
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none; 
+
+    padding: 10px 15px;
+    background-color: #28134c;
+
+    border: 1px solid azure;
+    color: azure; 
+    background-color: #000041;
+
+
+    border-radius: 2px; 
+    align-items: center;
+
+    list-style: none; 
+    text-decoration: none; 
+
+    transition: all 0.5s ease;
+}
+.bottone:hover{
+
+    background-color: rgb(255, 255, 0);
+    color: black;      
+    transition: all 0.5s ease;
+}
+.testo-errore{
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+    padding: 5px;   
+    background-color: rgb(255, 0, 0); 
+    color: rgb(0, 0, 0); 
+    border-radius: 2px; 
+    text-align: center;
+
+    border: 3px solid rgb(255, 255, 0);
+
+}
+.register-button{
+    position: absolute;
+    top: 1100px;
+}
+
+
+.testo-password{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: -3px;
+
+}
+.barra {
+    margin-top: 5px;
+    border: 0.5px solid #000;
+    width: 1%;
+    height: 10px;
+    background-color: red;
+    max-width:650px;
+    border-radius: 5px;
+}
+
+.reg-pass{
+    display: flex;
+}
+.controllo-2{
+    max-width: 500px;
+}
+.occhio{
+  color: azure;
+  margin: auto;
+
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    .register-form.sticky{
+        margin-top: 140px;
+    }
+    .register-button{
+        top: 1123px;
+    }
+}
+@media only screen and (max-width: 720px){
+    .register-form{
+        margin-top: 138px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    .register-form{
+        width: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 534px){
+
+    .register-form{
+        height: 870px;
+    }
+    .register-button{
+        top: 1143px;
+    }
+
+
+
+}
+
+
+
+
+
+
+

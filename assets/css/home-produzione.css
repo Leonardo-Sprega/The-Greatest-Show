@@ -1,0 +1,92 @@
+
+
+
+.produzione{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    height: 400px;
+    margin-bottom: 10px;
+
+    background-color: #000041;
+
+
+    /* background: linear-gradient(rgb(74, 42, 161),#90203A);*/
+    
+}
+.produzione-immagine-1{
+    
+    background-image: url(../immagini/soleil.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+
+}
+.produzione-testo{
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.produzione-titolo{
+
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+ 
+    color: azure; 
+
+}
+.produzione-commento{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none; 
+ 
+    color: azure; 
+
+}
+.produzione-testo-bottone{
+    margin-top: 20px;
+}
+.produzione-bottone{
+    margin-top: 20px;
+    color: azure;
+    text-decoration: none; 
+    background-color: #000054;
+    border: 0.5px solid azure;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+}
+.produzione-bottone:hover{
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease;
+
+}
+
+
+@media only screen and (max-width: 970px){
+    .produzione{
+        margin-top: 20px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        grid-template-areas: "testo"
+                             "img"; 
+    }
+    .produzione-immagine-1{
+
+        grid-area: img;
+        margin-top: 25px;
+    
+    }
+    .produzione-testo{
+        text-align: center;
+    
+    }
+}

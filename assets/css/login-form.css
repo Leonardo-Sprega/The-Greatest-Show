@@ -1,0 +1,155 @@
+
+
+.login-form.sticky{
+    margin-top: 117px;
+}
+.login-form{
+    border: 1px solid azure;
+    border-radius: 5px; 
+
+    height: 617px;
+    width: 600px;
+
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 30px 30px 0px 30px;
+    background-color: #00002b;
+
+    
+}
+.mb-3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form-label{
+
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none; 
+ 
+    color: azure; 
+    border-radius: 20px; 
+    align-items: center;
+
+}
+.form-control{
+    border: 2px solid #000;
+}
+.login-bottone{
+
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none; 
+
+    padding: 10px 15px;   
+    color: azure; 
+    background-color: #000041;;
+
+    border: 1px solid azure;
+
+    border-radius: 2px; 
+    align-items: center;
+
+    list-style: none; 
+    text-decoration: none; 
+
+    transition: all 0.5s ease;
+}
+.login-bottone:hover{
+
+    background-color: rgb(255, 255, 0);
+    color: black;      
+    transition: all 0.5s ease;
+}
+.login-registrati-ora{
+    top:830px;
+    position: absolute; 
+}
+.login-testo-registrati{
+    padding-bottom: 6px;
+}
+.login-form-label{
+
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none; 
+
+    padding-left: 3px;
+    padding-bottom: 16px ;   
+    color: rgb(255, 255, 255); 
+    border-radius: 20px; 
+    align-items: center;
+
+}
+.testo-errore{
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+    padding: 5px;   
+    background-color: rgb(255, 0, 0); 
+    color: rgb(0, 0, 0); 
+    border-radius: 2px; 
+    text-align: center;
+
+    border: 3px solid rgb(255, 255, 0);
+
+}
+
+
+.reg-pass{
+    display: flex;
+}
+.controllo-2{
+    max-width: 500px;
+}
+.occhio{
+  color: azure;
+  margin: auto;
+  margin-left: 5px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1100px){
+    .login-form.sticky{
+        margin-top: 140px;
+    }
+    .login-registrati-ora{
+        top:853px;
+        position: absolute; 
+    }
+}
+@media only screen and (max-width: 720px){
+    .login-form{
+        margin-top: 138px;
+    }
+}
+@media only screen and (max-width: 650px){
+
+    .login-form{
+        width: auto;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
